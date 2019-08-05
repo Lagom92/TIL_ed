@@ -34,17 +34,17 @@
 ...
 
 methods: {
-    handleScroll () {
+    handleScroll() {
       this.btnShow = window.scrollY > 400;
-      }
-    },
-  beforeMount () {
-    window.addEventListener('scroll', this.handleScroll);
+    }
   },
-  beforeDestroy () {
-    window.removeEventListener('scroll', this.handleScroll);
+
+  beforeMount() {
+    window.addEventListener("scroll", this.handleScroll);
   },
-}
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
 
 </script>
 ```
