@@ -2,6 +2,28 @@
 
 
 
+## Anaconda
+
+Python 기반의 데이터 분석에 필요한 오픈소스를 모아놓은 개발 플랫폼
+
+
+
+- 아나콘다 버전 확인
+
+```
+conda --version
+```
+
+
+
+- 아나콘다 업데이트
+
+```
+conda update conda
+```
+
+
+
 - 아나콘다 가상환경 생성
 
 ```
@@ -58,6 +80,14 @@ deactivate 가상환경명
 
 
 
+- 가상환경 목록 확인
+
+```
+conda env list
+```
+
+
+
 - 패키지 설치, 패키지 확인
 
 가상 환경 활성화 후 install 명령어를 통해 패키지를 설치할 수 있다.
@@ -106,6 +136,23 @@ conda remove -n 가상환경명 --all
 
 
 
+- 가상환경 추출
+- 모든 세팅이 되어 있는 가상환경을 다른 머신으로 복사하고 싶을때 사용(environment.yml 파일로 저장)
+
+```
+conda env export --name 가상환경명 > environment.yml
+```
+
+
+
+- 추출한 가상환경으로 새로운 가상환경 생성
+
+```
+conda env create -f./environment.yml
+```
+
+
+
 - 캐시 삭제 - 클린
 
 아나콘다는 clean 명령어를 통해 캐시를 삭제할 수 있다.
@@ -127,6 +174,8 @@ conda clean --all
 ```
 conda clean -a
 ```
+
+
 
 
 
