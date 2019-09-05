@@ -18,7 +18,7 @@
 
 ### PuTTY Key Generator(PuTTYgen)
 
-![](../img/PuTTYgen.PNG)
+![](img/PuTTYgen.PNG)
 
 
 
@@ -34,7 +34,7 @@
 
 ### PuTTY(PuTTY Configuration)
 
-![](../img/PuTTY.PNG)
+![](img/PuTTY.PNG)
 
 
 
