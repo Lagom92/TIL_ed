@@ -18,7 +18,7 @@
 
 ### PuTTY Key Generator(PuTTYgen)
 
-![](C:\Users\multicampus\Lagom\TIL\AI PJT md\img\PuTTYgen.PNG)
+![](../img/PuTTYgen.PNG)
 
 
 
@@ -34,7 +34,7 @@
 
 ### PuTTY(PuTTY Configuration)
 
-![](C:\Users\multicampus\Lagom\TIL\AI PJT md\img\PuTTY.PNG)
+![](../img/PuTTY.PNG)
 
 
 
