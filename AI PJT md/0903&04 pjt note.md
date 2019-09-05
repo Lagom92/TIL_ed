@@ -44,7 +44,7 @@ independence에 대한 가정이 비현실적
 
 - 공식
 
-![](C:\Users\multicampus\Lagom\TIL\AI PJT md\img\naive_bayse_smoothing.PNG)
+![](img/naive_bayse_smoothing.PNG)
 
 
 
