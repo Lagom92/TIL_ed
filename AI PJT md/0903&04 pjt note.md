@@ -40,3 +40,22 @@ independence에 대한 가정이 비현실적
 
 ### Laplace Smoothing
 
+
+
+- 공식
+
+![](C:\Users\multicampus\Lagom\TIL\AI PJT md\img\naive_bayse_smoothing.PNG)
+
+
+
+- k = 0 or k = 1
+
+
+
+
+
+
+
+#### 참고
+
+[https://ybigta-data-science.readthedocs.io/en/latest/6_Data_Science_from_Scratch/03_Naive%20Bayes%20Classifier/](https://ybigta-data-science.readthedocs.io/en/latest/6_Data_Science_from_Scratch/03_Naive Bayes Classifier/)
