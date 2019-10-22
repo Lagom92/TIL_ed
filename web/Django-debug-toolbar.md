@@ -90,3 +90,18 @@ if settings.DEBUG:
 > 실행을 해보니 생각보다 쿼리를 많이 보내거나 하는것 같지는 않다.
 >
 >굳이 당장 SQL의 성능을 최적화 할 필요는 없어 보인다.
+
+
+
+
+
+---
+
+참고
+
+https://django-debug-toolbar.readthedocs.io/en/stable/index.html
+
+https://wayhome25.github.io/django/2017/06/20/selected_related_prefetch_related/
+
+https://suspected.tistory.com/233
+
