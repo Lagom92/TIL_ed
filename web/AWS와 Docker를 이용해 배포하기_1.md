@@ -164,10 +164,6 @@ CMD ["gunicorn", "sample.wsgi", "--bind=0:8000"]
 
 
 
-
-
-
-
 ### ps
 
 모든 컨테이너 목록을 출력
@@ -181,14 +177,6 @@ docker ps
 ```
 docker ps -a
 ```
-
-
-
-
-
-
-
-
 
 
 
@@ -232,38 +220,6 @@ docker run -it -p 8000:8000 <>
 
 
 
-
-
-- FileNotFoundError
-- no such file or directory: '/code/static'
-
-```
-
-```
-
-
-
-
-
-
-
-```
-urlpatterns = [
-    # ... the rest of your URLconf goes here ...
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-```
-
-
-
-```
-STATIC_ROOT=os.path.join(BASE_DIR,"/static/")#正确
-
-```
-
-
-
-
-
 - background에서 도커가 돌아가게 하기
 
 ```
@@ -284,9 +240,7 @@ docker attach <컨테이너 id>
 
 
 
-
-
-
+-ing
 
 
 
