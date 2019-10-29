@@ -2,8 +2,7 @@
 
 
 
-![](/img/Linked List.png)
-
+![](img/Linked List.png)
 
 
 <br>
