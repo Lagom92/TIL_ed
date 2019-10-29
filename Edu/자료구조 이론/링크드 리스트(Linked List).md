@@ -2,7 +2,7 @@
 
 
 
-![](./img/Linked List.png)
+![](/img/Linked List.png)
 
 
 
@@ -41,7 +41,7 @@
 
 - 보통 파이썬에서 링크드 리스트 구현시 파이썬 클래스를 활용함
   - 파이썬 객체지향 문법 이해 필요
-  - www.fun-coding.org/PL&OOP-1-3.html
+  - www.fun-coding.org/
 
 
 
