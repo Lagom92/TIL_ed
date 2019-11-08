@@ -52,6 +52,8 @@
 # 현재 접속 중인 사용자에게 권한 주기
 sudo usermod -aG docker $USER
 
+# or
+
 # 지정한 유저에 권한 주기
 sudo usermod -aG docker <유저명>
 ```
@@ -243,6 +245,25 @@ docker attach <컨테이너 id>
 -ing
 
 
+
+
+
+### Django Create super
+
+- 관리자 계정이 필요한데 명령어를 입력해서 넣어줬다.
+- CONTAINER ID: django 일때
+
+```
+docker exec -it django python manage.py shell -c "from django.contrib.auth import get_user_model;
+User = get_user_model();
+User.objects.create_superuser('admin', 'admin@gmail.com', 'password')"
+```
+
+아이디는 admin
+
+이메일은 admin@gmail.com
+
+비밀번호는 password
 
 
 
